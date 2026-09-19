@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# 1. Un-ignore the .gitignore file itself so rules are tracked
+!.gitignore
+
+# 2. Un-ignore the src directory AND all of its contents recursively
+!src/
+!src/**
+
+# 3. Un-ignore package files
+!package.json
+!package-lock.json
+
+# 4. Un-ignore the sample environment file
+!.env.sample
+
+# 5. Un-ignore the documentation files
+!README.md
